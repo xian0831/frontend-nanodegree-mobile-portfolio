@@ -450,11 +450,19 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
-    for (var i = 0; i < document.querySelectorAll(".randomPizzaContainer").length; i++) {
-      var dx = determineDx(document.querySelectorAll(".randomPizzaContainer")[i], size);
-      var newwidth = (document.querySelectorAll(".randomPizzaContainer")[i].offsetWidth + dx) + 'px';
-      document.querySelectorAll(".randomPizzaContainer")[i].style.width = newwidth;
+    switch(size) {
+      case "1":
+        newWidth = 25 + "%";
+      case "2":
+        newWidth = 33.3 + "%";
+      case "3":
+        newWidth = 50 + "%";
+      default:
+        console.log("bug in sizeSwitcher");
     }
+
+    document.querySelectorAll(".randomPizzaContainer").style.width = newWidth;
+    //randomPizzaContainer.style.width = newWidth + "%";
   }
 
   changePizzaSizes(size);
@@ -502,9 +510,10 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
+  var scrollTop = document.body.scrollTop / 1250;
   var items = document.querySelectorAll('.mover');
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
+    var phase = Math.sin(scrollTop + (i % 5));
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
@@ -525,15 +534,18 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  for (var i = 0; i < 200; i++) {
+  var movingPizza = document.querySelector("#movingPizzas1");
+  var fragment = document.createDocumentFragment();
+
+  for (var i = 0; i < 35; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
-    elem.src = "images/pizza.png";
-    elem.style.height = "100px";
-    elem.style.width = "73.333px";
+    elem.src = "images/pizza_small.png";
     elem.basicLeft = (i % cols) * s;
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
-    document.querySelector("#movingPizzas1").appendChild(elem);
+    fragment.appendChild(elem);
+
   }
+  movingPizza.appendChild(fragment);
   updatePositions();
 });
