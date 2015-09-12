@@ -88,3 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
   updatePositions();
 });
 ```
+
+## Instruction For Running The Demo
+It is very simple. Go to [http://xian0831.github.io/frontend-nanodegree-mobile-portfolio/](http://xian0831.github.io/frontend-nanodegree-mobile-portfolio/) and you will be
+able to see the live demo. 
