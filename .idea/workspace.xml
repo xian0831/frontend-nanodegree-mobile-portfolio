@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5be2942-bfa5-40fc-82b2-09911a6256e0" name="Default" comment="Add strict mode to functions in main.js and fix bus in changePizzaSizes()">
+    <list default="true" id="a5be2942-bfa5-40fc-82b2-09911a6256e0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dev/views/js/main.js" afterPath="$PROJECT_DIR$/Dev/views/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dev/views/pizza.html" afterPath="$PROJECT_DIR$/Dev/views/pizza.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dev/views/js/main.min.js" afterPath="$PROJECT_DIR$/Dev/views/js/main.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="frontend-nanodegree-mobile-portfolio.iws" />
@@ -47,8 +47,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dev/views/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6121593">
-              <caret line="316" column="36" selection-start-line="316" selection-start-column="36" selection-end-line="316" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.4753363">
+              <caret line="465" column="47" selection-start-line="465" selection-start-column="47" selection-end-line="465" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -59,8 +59,8 @@
       <file leaf-file-name="pizza.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dev/views/pizza.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7454545">
-              <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+            <state vertical-scroll-proportion="-3.8363636">
+              <caret line="104" column="55" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -322,7 +322,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442033551501</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add strict mode to functions in main.js and fix bus in changePizzaSizes()">
+      <created>1442059205769</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1442059205769</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -338,8 +344,8 @@
     <frame x="60" y="21" width="1860" height="1059" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45546558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2611336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45546558" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2611336" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -503,16 +509,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dev/views/pizza.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7454545">
-          <caret line="100" column="13" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="13" />
+        <state vertical-scroll-proportion="-3.8363636">
+          <caret line="104" column="55" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dev/views/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6121593">
-          <caret line="316" column="36" selection-start-line="316" selection-start-column="36" selection-end-line="316" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.4753363">
+          <caret line="465" column="47" selection-start-line="465" selection-start-column="47" selection-end-line="465" selection-end-column="47" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
