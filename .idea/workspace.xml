@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a5be2942-bfa5-40fc-82b2-09911a6256e0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dev/views/js/main.js" afterPath="$PROJECT_DIR$/Dev/views/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dev/views/js/main.min.js" afterPath="$PROJECT_DIR$/Dev/views/js/main.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="frontend-nanodegree-mobile-portfolio.iws" />
@@ -47,8 +46,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Dev/views/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4753363">
-              <caret line="465" column="47" selection-start-line="465" selection-start-column="47" selection-end-line="465" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.31838566">
+              <caret line="492" column="44" selection-start-line="492" selection-start-column="44" selection-end-line="492" selection-end-column="44" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -328,7 +327,13 @@
       <option name="project" value="LOCAL" />
       <updated>1442059205769</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Move declaration of pizzasDiv out of loop.">
+      <created>1442059388622</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1442059388622</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -350,7 +355,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12357104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12357104" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -404,7 +409,8 @@
     <MESSAGE value="Regroup project structure" />
     <MESSAGE value="Update README" />
     <MESSAGE value="Add strict mode to functions in main.js and fix bus in changePizzaSizes()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add strict mode to functions in main.js and fix bus in changePizzaSizes()" />
+    <MESSAGE value="Move declaration of pizzasDiv out of loop." />
+    <option name="LAST_COMMIT_MESSAGE" value="Move declaration of pizzasDiv out of loop." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -517,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dev/views/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4753363">
-          <caret line="465" column="47" selection-start-line="465" selection-start-column="47" selection-end-line="465" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.31838566">
+          <caret line="492" column="44" selection-start-line="492" selection-start-column="44" selection-end-line="492" selection-end-column="44" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
