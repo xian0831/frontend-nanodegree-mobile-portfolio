@@ -517,14 +517,14 @@ window.addEventListener('scroll', updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  var movingPizza = document.querySelector("#movingPizzas1");
+  var movingPizza = document.getElementById("movingPizzas1");
   var fragment = document.createDocumentFragment();
-
-  for (var i = 0; i < 35; i++) {
-    var elem = document.createElement('img');
+  var elem;
+  for (var i = 0; i < 48; i++) {
+    elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza_small.png";
-    elem.basicLeft = (i % cols) * s;
+    elem.style.left = i % cols * s + 'px';
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
     fragment.appendChild(elem);
 
