@@ -335,15 +335,15 @@ var makeRandomPizza = function() {
   var numberOfNonMeats = Math.floor((Math.random() * 3));
   var numberOfCheeses = Math.floor((Math.random() * 2));
 
-  for (var i = 0; i < numberOfMeats; i++) {
+  for (var i = 0, len = numberOfMeats; i < len; i++) {
     pizza = pizza + ingredientItemizer(selectRandomMeat());
   }
 
-  for (var j = 0; j < numberOfNonMeats; j++) {
+  for (var j = 0, len = numberOfNonMeats; j < len; j++) {
     pizza = pizza + ingredientItemizer(selectRandomNonMeat());
   }
 
-  for (var k = 0; k < numberOfCheeses; k++) {
+  for (var k = 0, len = numberOfCheeses; k < len; k++) {
     pizza = pizza + ingredientItemizer(selectRandomCheese());
   }
 
@@ -439,7 +439,7 @@ resizePizzas = function (size) {
     }
 
     var pizzas = document.getElementsByClassName("randomPizzaContainer");
-    for(var i=0;i<pizzas.length;i++){
+    for(var i= 0, len = pizzas.length;i<len;i++){
       pizzas[i].style.width=newWidth;
     }
 
@@ -496,7 +496,7 @@ function updatePositions() {
   var items = document.getElementsByClassName('mover');
   var phase;
   for (var i = 0; i < items.length; i++) {
-    phase = Math.sin(scrollTop + (i % 5)) * 700;
+    phase = Math.sin(scrollTop + (i % 5)) * 100;
     items[i].style.transform = 'translateX(' + phase + 'px) ';
   }
 
